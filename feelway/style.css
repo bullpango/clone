@@ -6,12 +6,16 @@ body{
 }
 
 .nav-var{
-    width: 70%;
+    width: 75%;
     height: 20;
     display: flex;
     justify-content: space-between;
     padding: 10px 10px 10px 150px;
     align-items: center;
+}
+
+.nav-var__column span, i{
+    font-size: 12px;
 }
 
 .nav-var__column__right{
@@ -28,6 +32,7 @@ body{
 }
 .nav-var__column__right span{
     color: rgb(148, 148, 148);
+    font-size: 12px;
 }
 
 .nav__menu__quick {
@@ -39,7 +44,7 @@ body{
 }
 
 .welcome-header{
-    width: 70%;
+    width: 75%;
     height: 20;
     display: flex;
     justify-content: space-between;
@@ -70,3 +75,27 @@ body{
     margin-left: 30px;
 }
 
+.sales-category{
+    width: 95%;
+    height: 50px;
+    display: flex;
+    margin-top: 10px;
+    background-color: #9F7c49;
+    align-items: center;
+    justify-content: center;
+}
+
+.sales-category__menu{
+    padding-left: 30px;
+    justify-content: space-between;
+}
+
+.sales-category__menu span{
+    margin: 9px;
+    color: white;
+    font-weight: 100;
+}
+
+.sales-category__menu span:first-child{
+    margin-right: 45px;
+}
