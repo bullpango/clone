@@ -6,11 +6,11 @@ body{
 }
 
 .nav-var{
-    width: 95%;
+    width: 70%;
     height: 20;
     display: flex;
     justify-content: space-between;
-    padding: 10px 10px 10px 10px;
+    padding: 10px 10px 10px 150px;
     align-items: center;
 }
 
@@ -37,3 +37,36 @@ body{
     background-color: rgb(148, 148, 148);
     
 }
+
+.welcome-header{
+    width: 70%;
+    height: 20;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 10px 10px 150px;
+    align-items: center;
+    margin-top: 5px;
+}
+
+.welcome-header h1{
+    font-size: 50px;
+    font-weight: 800;
+}
+
+.welcome-header__search{
+    width : 250px;
+    height: 30px;
+    border: 2px solid black;
+    align-items: center;
+    justify-content: center;
+    padding: 15px 0 0 15px;
+}
+
+.welcome-header__search input{
+    border: 0px;
+}
+
+.welcome-header__search i{
+    margin-left: 30px;
+}
+
