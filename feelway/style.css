@@ -1,3 +1,6 @@
 @import "reset.css";
+@import "variables.css";
+
+/*components*/
 @import "components/upper-container.css";
 @import "components/bottom-container.css";
