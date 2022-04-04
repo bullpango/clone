@@ -1,0 +1,16 @@
+#bottom-container{
+    display: flex;
+    flex-direction: row;
+    width: 1290px;
+    height: 1170px;
+    margin-top: 40px;
+    padding: 0 0 0 60px;
+}
+
+.mymenu{
+    display: flex;
+    flex-direction: column;
+    width: 140px;
+    height: 400px;
+    background-color: black;
+}
